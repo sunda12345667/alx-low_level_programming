@@ -3,10 +3,11 @@
 void first(void) __attribute__ ((constructor));
 
 /**
- * first - prints a sentence
+ * first - prints a sentence before the main
+ * function is executed
  */
 void first(void)
 {
-	printf("Mr.tortoise,\n");
-	printf(a tortoise having pretty good sende of a hare, challenges one to a race\n");
+	printf("You're beat! and yet, you must allow,\n");
+	printf("I bore my house upon my back!\n");
 }
